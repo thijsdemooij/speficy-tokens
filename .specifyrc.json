@@ -18,6 +18,12 @@
 							"vector": "assets/vector"
 						}
 					}
+				},
+				{
+					"name": "camelcasify",
+					"options": {
+						"keys": ["fontFamily"]
+					}
 				}
 			]
 		},
@@ -65,12 +71,6 @@
 					"options": {
 						"formats": ["woff2", "woff"],
 						"fileNameFormat": "kebabCase"
-					}
-				},
-				{
-					"name": "camelcasify",
-					"options": {
-						"keys": ["name", "fontFamily"]
 					}
 				}
 			]
