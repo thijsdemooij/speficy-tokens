@@ -22,7 +22,8 @@
             "assetsFolderPath": {
               "vector": "assets/vector"
             }
-          }
+          },
+          "name": "camelcasify"
         }
       ]
     },
