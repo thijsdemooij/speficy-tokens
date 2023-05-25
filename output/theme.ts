@@ -235,6 +235,12 @@ const theme = {
       fontFamily: "Inter-SemiBold",
     },
   },
+  font: {
+    interBold: "Inter-Bold",
+    interSemiBold: "Inter-SemiBold",
+    interRegular: "Inter-Regular",
+    interMedium: "Inter-Medium",
+  },
   color: {
     blue900: "#0c1131",
     successOnSuccess: "#ffffff",
