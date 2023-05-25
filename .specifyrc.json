@@ -57,7 +57,7 @@
 			"name": "Assets / Export fonts",
 			"path": "./output/assets/fonts",
 			"filter": {
-				"types": ["font"]
+				"types": ["font", "textStyle"]
 			},
 			"parsers": [
 				{
@@ -70,7 +70,7 @@
 				{
 					"name": "camelcasify",
 					"options": {
-						"keys": ["name"]
+						"keys": ["name", "fontFamily"]
 					}
 				}
 			]
