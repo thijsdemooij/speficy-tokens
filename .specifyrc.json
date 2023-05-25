@@ -7,7 +7,7 @@
 			"name": "Design Tokens / Generate theme",
 			"path": "./output/theme.ts",
 			"filter": {
-				"types": ["vector", "font", "color", "textStyle"]
+				"types": ["vector", "font", "color", "textStyle", "shadow"]
 			},
 			"parsers": [
 				{
