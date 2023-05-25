@@ -11,6 +11,16 @@
 			},
 			"parsers": [
 				{
+					"name": "replace-string",
+					"options": {
+						"keys": ["fontFamily"],
+						"regex": {
+							"pattern": "-",
+							"flags": "g"
+						}
+					}
+				},
+				{
 					"name": "to-react-native",
 					"options": {
 						"colorFormat": "hex",
