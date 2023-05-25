@@ -7,7 +7,7 @@
 			"name": "Design Tokens / Generate theme",
 			"path": "./output/theme.ts",
 			"filter": {
-				"types": ["vector", "color", "textStyle"]
+				"types": ["vector", "font", "color", "textStyle"]
 			},
 			"parsers": [
 				{
@@ -64,7 +64,9 @@
 				{
 					"name": "convert-font",
 					"options": {
-						"formats": ["woff2", "woff"]
+						"formats": ["woff2", "woff"],
+						"fileNameKey": ["fontFamily", "fontWeight"],
+						"fileNameFormat": "camelcasify"
 					}
 				}
 			]
