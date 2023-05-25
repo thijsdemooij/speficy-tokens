@@ -63,14 +63,13 @@
 			"name": "Assets / Export fonts",
 			"path": "./output/assets/fonts",
 			"filter": {
-				"types": ["font", "textStyle"]
+				"types": ["font"]
 			},
 			"parsers": [
 				{
 					"name": "convert-font",
 					"options": {
-						"formats": ["woff2", "woff"],
-						"fileNameFormat": "kebabCase"
+						"formats": ["woff2", "woff"]
 					}
 				}
 			]
