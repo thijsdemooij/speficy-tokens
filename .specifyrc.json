@@ -18,14 +18,6 @@
 							"vector": "assets/vector"
 						}
 					}
-				},
-				{
-					"name": "convert-font",
-					"options": {
-						"formats": ["woff2", "woff"],
-						"fileNameKey": ["fontFamily", "fontWeight"],
-						"fileNameFormat": "kebabCase"
-					}
 				}
 			]
 		},
@@ -71,7 +63,14 @@
 				{
 					"name": "convert-font",
 					"options": {
-						"formats": ["woff2", "woff"]
+						"formats": ["woff2", "woff"],
+						"fileNameFormat": "kebabCase"
+					}
+				},
+				{
+					"name": "camelcasify",
+					"options": {
+						"keys": ["name"]
 					}
 				}
 			]
