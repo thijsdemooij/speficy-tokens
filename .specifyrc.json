@@ -7,7 +7,7 @@
 			"name": "Design Tokens / Generate theme",
 			"path": "./output/theme.ts",
 			"filter": {
-				"types": ["vector", "color", "font", "textStyle"]
+				"types": ["vector", "color", "textStyle"]
 			},
 			"parsers": [
 				{
@@ -16,13 +16,8 @@
 						"colorFormat": "hex",
 						"assetsFolderPath": {
 							"vector": "assets/vector"
-						}
-					}
-				},
-				{
-					"name": "camelcasify",
-					"options": {
-						"keys": ["fontFamily"]
+						},
+						"formatKeys": "camelCase"
 					}
 				}
 			]
